@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --brandColor: #003580;
+  --white-color: #fff;
+}
+.navbar {
+  height: 50px;
+  background-color: var(--brandColor);
+  display: flex;
+  justify-content: center;
+}
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 500;
+}
+
+.navButton {
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: var(--brandColor);
+}
