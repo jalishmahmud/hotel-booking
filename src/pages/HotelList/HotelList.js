@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
+import Navbar from '../../components/Navbar/Navbar';
 
 const HotelList = () => {
   return (
-    <div>
-      <h2>Hotel List</h2>
-    </div>
+    <>
+      <Navbar />
+      <Header type="hotelList" />
+    </>
   );
 };
 
